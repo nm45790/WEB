@@ -1,49 +1,80 @@
 <!doctype html>
 <html>
-  <head>
-    <title>info-이성찬</title>
-    <meta charset="utf-8">
+<head>
+  <title>성사(성찬사이트란뜻ㅎ)</title>
+  <meta charset="utf-8">
 
-    <p>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WHTK21YW09"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <p>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WHTK21YW09"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-WHTK21YW09');
-</script>
-    </p>
-    <!--CSS-->
-    <style>
-      a {
-        color:blue;
-        text-decoration: none;
-      }
-      h1{
-        font-size: 48px;
-        text-align: center;
-      }
-    </style>
-  </head>
+    gtag('config', 'G-WHTK21YW09');
+    </script>
+  </p>
+  <!--CSS-->
+  <style>
+  body{
+    margin:0;
+  }
+  a {
+    color:blue;
+    text-decoration: none;
+    text-align: left;
+  }
+  h1{
+    font-size: 48px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+  .list{
+    font-size: 24px;
+    text-align: center;
+  }
+  #c{
+    color: red;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid #list{
+    border-right:1px solid gray;
+    width:130px;
+    margin:0;
+    padding: 35px;
+  }
+  #grid #article{
+    padding-left: 100px;
+    padding-bottom: 100%;
+  }
+</style>
+</head>
 
-  <body>
-    <h1><a href="index.html">나만 봐 블로그</a></h1>
-        <h2><strong>글 목록</strong></h2>
-    <ol>
-      <li><a href="1.html">본인소개</a></li>
-      <li><a href="2.html">본인취미</a></li>
-      <li><a href="3.html">만든이유</a></li>
+<body>
+  <h1><a href="index.html">나만 봐 블로그</a></h1>
+  <div id="grid">
+    <ol id="list">
+      <li><a href="1.html" class="list"id="a">본인소개</a></li>
+      <li><a href="2.html" class="list"id="b">본인취미</a></li>
+      <li><a href="3.html" class="list"id="c">만든이유</a></li>
     </ol>
-    <h2>1. 공부목적</h2>
-    <p>
-      생활코딩 WEB1 강의를 듣고 복습겸 직접 만들어봤습니다.
-      <br> CSS, JavaScript를 배우고 더 이쁘고, 기능있는 페이지로 업그레이드 할 예정입니다.
-    </p>
-    <p>
-      동영상 추가 예제<br>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
-  </body>
+    <div id="article">
+      <h2>1. 공부목적</h2>
+      <p>
+        생활코딩 WEB1 강의를 듣고 복습겸 직접 만들어봤습니다.
+        <br> CSS, JavaScript를 배우고 더 이쁘고, 기능있는 페이지로 업그레이드 할 예정입니다.
+      </p>
+      <p>
+        동영상 추가 예제<br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </p>
+    </div>
+  </div>
+</body>
 </html>
