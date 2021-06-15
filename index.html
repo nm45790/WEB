@@ -4,27 +4,25 @@
   <title>성사(성찬사이트란뜻ㅎ)</title>
   <meta charset="utf-8">
 
-  <p>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WHTK21YW09"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-WHTK21YW09');
-    </script>
-  </p>
   <!--CSS-->
   <link rel="stylesheet" href="style.css">
   <style>
-    #d{
+  #d{
     color: red;
   }
   </style>
 </head>
 
 <body>
+  <!--JavaScript-->
+  <input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='white';
+  ">
+  <input type="button" value="day" onclick="
+  document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black';
+  ">
   <h1><a href="index.html" id="d">나만 봐 블로그</a></h1>
   <div id="grid">
     <ol class="list" id="list">
@@ -36,46 +34,14 @@
       <h2>목차를 선택하세요.</h2>
       <p>
         이 페이지는 이성찬 본인이 웹 공부를 하며 간단한 블로그를 작성하는 용도로 만들어졌습니다.<br>
-        아무거나 막 쓸겁니다😎<br><br>
-        그래도 찾아오신분은 페이스북 로그인 하셔서 방명록 하나 달아주시면 감사하겠습니다❤️❤️
+        아무거나 막 쓸겁니다😎<br>댓글기능과 채팅기능은 오류발생으로 인해 제거하였습니다❗️<br><br>
+
+        1. html<br>
+        2. CSS<br>
+        3. JavaScript<br>
       </p>
     </div>
   </div>
-  <p>
-    <div id="disqus_thread"></div>
-    <script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
-  */
-  (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://web1-17altfu2zf.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</p>
-<p>
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/60beff074ae6dd0abe7d0acf/1f7l18drq';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-  })();
-</script>
-<!--End of Tawk.to Script-->
-</p>
+
 </body>
 </html>

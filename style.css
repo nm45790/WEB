@@ -1,5 +1,5 @@
 body{
-  margin:0;
+  margin: 0px;
 }
 a {
   color:blue;
@@ -43,7 +43,7 @@ h1{
     padding-bottom: 50%;
   }
 }
-/* 다크모드  
+/* CSS ㄷㅏ크모드
 a {
     color: #0000ee;
 }
