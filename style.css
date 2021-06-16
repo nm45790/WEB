@@ -43,6 +43,22 @@ h1{
     padding-bottom: 50%;
   }
 }
+input.day{
+  background: url("day.png") no-repeat;
+  background-size:48px;
+  border:none;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+input.night{
+  background: url("night.png") no-repeat;
+  background-size:48px;
+  border:none;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
 /* CSS ㄷㅏ크모드
 a {
     color: #0000ee;

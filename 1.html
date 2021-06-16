@@ -14,6 +14,15 @@
 </head>
 
 <body>
+  <!--Day,Night btn-->
+  <input type="button" class="night" onclick="
+  document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='white';
+  ">
+  <input type="button" class="day" onclick="
+  document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black';
+  ">
   <h1><a href="index.html">나만 봐 블로그</a></h1>
   <div id="grid">
     <ol class="list" id="list">
