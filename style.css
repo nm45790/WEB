@@ -1,75 +1,66 @@
-body{
+body {
   margin: 0px;
 }
+
 a {
-  color:blue;
+  color: blue;
   text-decoration: none;
   text-align: left;
 }
-h1{
+
+h1 {
   font-size: 48px;
   text-align: center;
-  border-bottom:5px solid gray;
-  margin:0;
-  padding:20px;
+  border-bottom: 5px solid gray;
+  margin: 0;
+  padding: 20px;
 }
-.list{
+
+.list {
   font-size: 24px;
 }
-#grid{
+
+#grid {
   display: grid;
   grid-template-columns: 150px 1fr;
   border-bottom: 5px solid gray;
 }
-#grid #list{
-  border-right:5px solid gray;
-  width:130px;
-  margin:0;
+
+#grid #list {
+  border-right: 5px solid gray;
+  width: 130px;
+  margin: 0;
   padding: 35px;
 }
-#grid #article{
+
+#grid #article {
   padding-left: 100px;
   padding-bottom: 50%;
 }
-@media(max-width:600px){
-  #grid{
+
+@media(max-width:600px) {
+  #grid {
     display: block;
   }
-  #grid #list{
-    border-right:none;
+
+  #grid #list {
+    border-right: none;
   }
-  #grid #article{
+
+  #grid #article {
     padding-left: 15px;
     padding-bottom: 50%;
   }
 }
-input.day{
-  background: url("day.png") no-repeat;
-  background-size:48px;
-  border:none;
-  width: 48px;
-  height: 48px;
-  cursor: pointer;
-}
-input.night{
-  background: url("night.png") no-repeat;
-  background-size:48px;
-  border:none;
-  width: 48px;
-  height: 48px;
-  cursor: pointer;
-}
 
-a {
-    color: #0000ee;
-}
+/*
 @media (prefers-color-scheme: dark) {
     body {
         background: #121212;
         color: #bbb;
     }
-
     a {
         color: #3ea6ff;
     }
 }
+*/
