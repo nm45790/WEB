@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>곰찬 블로그 🐻</title>
+  <meta charset="utf-8">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .list #e {
+      color: #ff0090;
+    }
+  </style>
+  <link rel="SHORTCUT ICON" href="favicon-96x96.png" />
+</head>
+
+<body>
+  <input type="button" value="night" onclick="
+  var target = document.querySelector('body');
+    if(this.value==='night'){
+    target.style.backgroundColor ='black';
+    target.style.color='white';
+    this.value = 'day';
+  }
+  else{
+    target.style.backgroundColor ='white';
+    target.style.color='black';
+    this.value = 'night';
+  }
+  ">
+  <h1><a href="index.html" id="title">곰찬 블로그 🐻</a></h1>
+  <div id="grid">
+    <ol class="list" id="list">
+      <li><a href="1.html" class="list" id="a">본인소개</a></li>
+      <li><a href="2.html" class="list" id="b">본인취미</a></li>
+      <li><a href="3.html" class="list" id="c">만든이유</a></li>
+      <li><a href="4.html" class="list" id="d">JS</a>
+        <ul style="padding-left:5px;">
+          <li><a href="4-1.html" class="list" style="font-size:20px;">투두리스트</li>
+          <li><a href="4-2.html" class="list" style="font-size:20px;" id="e">비디오플레이어</a></li>
+        </ul>
+      </li>
+    </ol>
+    <div id="article">
+      <br>test test test
+      <br>test test test
+      <br>test test test
+      <br>test test test
+      <br>test test test
+      <br>test test test
+      <br>test test test
+      <h2> Array</h2>
+      <h3>Syntax</h3>
+      <script>
+        var alphabet=["A","B"];
+      </script>
+      <h2>get</h2>
+      <script>
+        document.write(alphabet[0]);
+        document.write(alphabet[1]);
+      </script>
+      <h2>add</h2>
+      <script>
+        alphabet.push('c');
+        alphabet.push('d');
+        document.write(alphabet.length); 
+      </script>
+    </div>
+  </div>
+</body>
+
+</html>
