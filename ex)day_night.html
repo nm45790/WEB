@@ -13,22 +13,11 @@
     }
   </style>
   <link rel="SHORTCUT ICON" href="favicon-96x96.png" />
+  <script src="color.js"></script>
 </head>
 
 <body>
-  <input type="button" value="night" onclick="
-  var target = document.querySelector('body');
-    if(this.value==='night'){
-    target.style.backgroundColor ='black';
-    target.style.color='white';
-    this.value = 'day';
-  }
-  else{
-    target.style.backgroundColor ='white';
-    target.style.color='black';
-    this.value = 'night';
-  }
-  ">
+  <input type="button" value="night" onclick="nightDayHandler(this);">
   <h1><a href="index.html" id="title">곰찬 블로그 🐻</a></h1>
   <div id="grid">
     <ol class="list" id="list">
@@ -43,29 +32,7 @@
       </li>
     </ol>
     <div id="article">
-      <br>test test test
-      <br>test test test
-      <br>test test test
-      <br>test test test
-      <br>test test test
-      <br>test test test
-      <br>test test test
-      <h2> Array</h2>
-      <h3>Syntax</h3>
-      <script>
-        var alphabet=["A","B"];
-      </script>
-      <h2>get</h2>
-      <script>
-        document.write(alphabet[0]);
-        document.write(alphabet[1]);
-      </script>
-      <h2>add</h2>
-      <script>
-        alphabet.push('c');
-        alphabet.push('d');
-        document.write(alphabet.length); 
-      </script>
+
     </div>
   </div>
 </body>
