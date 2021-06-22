@@ -54,7 +54,8 @@ h1 {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* 사용자의 테마가 블랙이면 다크모드 실행
+ @media (prefers-color-scheme: dark) {
   body {
     background: #121212;
     color: #bbb;
@@ -63,4 +64,4 @@ h1 {
   a {
     color: powderblue;
   }
-}
+} */
